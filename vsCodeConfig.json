@@ -48,7 +48,7 @@
     "prettier.arrowParens": "avoid",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
-    	"editor.tabSize": 2,
+    	"editor.tabSize": 2
     },
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
@@ -96,5 +96,5 @@
 	},
 	"workbench.colorTheme": "Visual Studio 2019 Dark",
 	"workbench.panel.defaultLocation": "right",
-	"window.zoomLevel": 1,
+	"window.zoomLevel": 1
 }
