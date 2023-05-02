@@ -1,100 +1,102 @@
 {
-    "editor.cursorStyle": "line",
-    "liveServer.settings.donotShowInfoMsg": true,
-		"workbench.activityBar.visible": true,
-    "editor.fontFamily": "Menlo, Consolas, 'Courier New', monospace",
-    "launch": {
-        "configurations": [],
-        "compounds": []
+  "editor.cursorStyle": "line",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.activityBar.visible": true,
+  "editor.fontFamily": "Menlo, Consolas, 'Courier New', monospace",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.cursorStylePerMode.visual": "underline-thin",
+  "vim.cursorStylePerMode.visualblock": "block-outline",
+  "vim.cursorStylePerMode.visualline": "block-outline",
+  "vim.history": 200,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["<Tab>"],
+      "after": ["  "]
     },
-    "liveServer.settings.donotVerifyTags": true,
-    "vim.cursorStylePerMode.replace": "block-outline",
-    "vim.cursorStylePerMode.visual": "underline-thin",
-    "vim.cursorStylePerMode.visualblock": "block-outline",
-    "vim.cursorStylePerMode.visualline": "block-outline",
-    "vim.history": 200,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "<Tab>"
-            ],
-            "after": [
-                "  "
-            ]
-        },
-        {
-            "before": [
-                "j",
-                "k"
-            ],
-            "after": [
-                "<Esc>"
-            ]
-        }
-    ],
-    "editor.lineNumbers": "relative",
-    "workbench.colorCustomizations": {
-		"[Default Dark+]": {
-			"editor.background": "#1e1e1e",
-			"sideBar.dropBackground": "#e5e5e5",
-			"sideBar.background": "#323233",
-			"activityBar.background": "#333333"
-		},
-		"statusBar.background": "#005f5f",
-		"statusBar.noFolderBackground": "#005f5f",
-		"statusBar.debuggingBackground": "#005f5f"
-	},
-    "vim.statusBarColors.insert": "#f00",
-    "prettier.arrowParens": "avoid",
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-    	"editor.tabSize": 2
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "editor.lineNumbers": "relative",
+  "workbench.colorCustomizations": {
+    "[Default Dark+]": {
+      "editor.background": "#1e1e1e",
+      "sideBar.dropBackground": "#e5e5e5",
+      "sideBar.background": "#323233",
+      "activityBar.background": "#333333"
     },
-    "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
-    "terminal.explorerKind": "external",
-    "terminal.integrated.fontSize": 11,
-    "editor.formatOnSave": true,
-    "prettier.tabWidth": 2,
-    "[json]": {
-        "editor.quickSuggestions": {
-            "strings": true
-        },
-        "editor.suggest.insertMode": "replace"
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
+    "editor.lineHighlightBackground": "#005f5f89",
+    "terminal.selectionBackground": "#e26cffcb"
+  },
+  "vim.statusBarColors.insert": "#f00",
+  "prettier.arrowParens": "avoid",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "terminal.explorerKind": "external",
+  "terminal.integrated.fontSize": 11,
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
     },
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "vim.cursorStylePerMode.insert": "line-thin",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "editor.tabCompletion": "onlySnippets",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.statusBarColorControl": false,
+  "editor.suggest.showStatusBar": true,
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  "editor.fontSize": 11,
+  "editor.insertSpaces": true,
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "zenMode.hideLineNumbers": false,
+  "editor.detectIndentation": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "python.pythonPath": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "[python]": {
+    "editor.insertSpaces": true,
     "editor.tabSize": 4,
-    "vim.cursorStylePerMode.insert": "line-thin",
-    "terminal.integrated.shell.osx": "/bin/zsh",
-    "editor.tabCompletion": "onlySnippets",
-    "vim.cursorStylePerMode.normal": "block",
-    "vim.statusBarColorControl": true,
-    "editor.suggest.showStatusBar": true,
-    "editor.wordWrap": "off",
-    "diffEditor.wordWrap": "off",
-    "editor.fontSize": 11,
-    "editor.insertSpaces": false,
-    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-    "zenMode.hideLineNumbers": false,
-		"editor.detectIndentation": false,
-		"[typescriptreact]": {
-			"editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"typescript.enablePromptUseWorkspaceTsdk": true,
-	"python.pythonPath": "/Library/Developer/CommandLineTools/usr/bin/python3",
-	"workbench.editorAssociations": {
-		"*.ipynb": "jupyter-notebook"
-	},
-	"[python]": {
-		"editor.insertSpaces": true,
-		"editor.tabSize": 4,
-		"editor.defaultFormatter": "ms-python.python"
-	},
-	"python.defaultInterpreterPath": "/Library/Developer/CommandLineTools/usr/bin/python3",
-	"notebook.cellToolbarLocation": {
-		"default": "right",
-		"jupyter-notebook": "left"
-	},
-	"workbench.colorTheme": "Visual Studio 2019 Dark",
-	"workbench.panel.defaultLocation": "right",
-	"window.zoomLevel": 1
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "python.defaultInterpreterPath": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "prettier.printWidth": 100,
+  "editor.wordWrapColumn": 90,
+  "workbench.colorTheme": "Visual Studio 2019 Dark",
+  "editor.cursorSurroundingLines": 7,
+  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 2,
+  "editor.formatOnSave": true,
+  "workbench.startupEditor": "none",
+  "cSpell.enableFiletypes": ["markdown"],
+  "cSpell.checkOnlyEnabledFileTypes": true
 }
